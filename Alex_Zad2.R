@@ -12,7 +12,7 @@ library(dplyr)
 library(tibble)
 library(readr)
 
-#1.Работа с данными
+#1.Обработка данных
 
 #Загрузим нашу таблицу, пропустив 1 и 3 строчки, а также заменив значения -9999 символом NA
 eddypro = read_csv("eddypro.csv", skip = 1, na =c("","NA","-9999","-9999.0"), comment=c("["))
